@@ -83,10 +83,10 @@ class App extends Component {
       <div className="container-fluid Form-container">
   	   <div className="row">
   		   <div className="col-md-4 col-md-offset-4">
-         <ul className="nav nav-tabs">
-            <li className="active"><a className="Tab-text" data-toggle="tab" href="#details">Enter Details</a></li>
-            <li onClick={this.validateForm.bind(this)}><a className="Tab-text" data-toggle="tab" href="#menu1">See Report</a></li>
-          </ul>
+            <ul className="nav nav-tabs">
+              <li className="active"><a className="Tab-text" data-toggle="tab" href="#details">Enter Details</a></li>
+              <li onClick={this.validateForm.bind(this)}><a className="Tab-text" data-toggle="tab" href="#menu1">See Report</a></li>
+            </ul>
             <div className="tab-content">
     			    <form className="form-horizontal tab-pane fade in active Form-container" role="form" id="details">
     				      <div className="form-group">
